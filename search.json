@@ -1,0 +1,268 @@
+[
+  {
+    "objectID": "index.html#table-of-contents",
+    "href": "index.html#table-of-contents",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Table of Contents",
+    "text": "Table of Contents\nPart 1: Comparing Health Events\n\n\nIntroduction and Key Concepts\nTypes of Comparisons (Time, Place, Group, Event)\nPolicy Implications\n\n\nPart 2: Measuring Health and Disease\n\n\nIncidence and Prevalence\nMortality Metrics\nLife Tables and Life Expectancy\nDemographic Transitions and Aging Populations\nFertility Rates"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Introduction",
+    "text": "Introduction\n\nDefinition of Health Events: Disease outbreaks, chronic conditions, injuries, and health behaviors.\nImportance of Comparisons: Understanding disparities, identifying risk factors, guiding public health interventions.\nKey Concepts: Population health, epidemiology, and biostatistics."
+  },
+  {
+    "objectID": "index.html#objectives-of-population-health",
+    "href": "index.html#objectives-of-population-health",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Objectives of Population Health",
+    "text": "Objectives of Population Health\nFour Key Objectives:\n\nDescribe: Understand population-level health outcomes.\nExplain: Identify determinants and drivers of health outcomes.\nPredict: Anticipate future health trends and patterns.\nControl: Implement interventions to improve outcomes."
+  },
+  {
+    "objectID": "index.html#historical-context",
+    "href": "index.html#historical-context",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Historical Context",
+    "text": "Historical Context\nKey Figures\n\nJohn Snow: Cholera outbreak mapping.\nIgnaz Semmelweis: Importance of handwashing.\nJoseph Goldberger: Nutritional causes of pellagra."
+  },
+  {
+    "objectID": "index.html#types-of-comparisons",
+    "href": "index.html#types-of-comparisons",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Types of Comparisons",
+    "text": "Types of Comparisons\nTime-Based\n\nKey Metrics:\n\nIncidence: New cases over time.\nPrevalence: Existing cases at a given time."
+  },
+  {
+    "objectID": "index.html#levels-of-analysis",
+    "href": "index.html#levels-of-analysis",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Levels of Analysis",
+    "text": "Levels of Analysis\nFrameworks:\n\nIndividual-Level: Biostatistical and clinical trials.\nPopulation-Level: Geographic and demographic patterns."
+  },
+  {
+    "objectID": "index.html#population-vs.-community-health-assessments",
+    "href": "index.html#population-vs.-community-health-assessments",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Population vs. Community Health Assessments",
+    "text": "Population vs. Community Health Assessments\nExample:\n\nCommunity: Identifying food deserts.\nPopulation: Obesity prevalence across counties."
+  },
+  {
+    "objectID": "index.html#policy-implications",
+    "href": "index.html#policy-implications",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Policy Implications",
+    "text": "Policy Implications\nUsing Comparisons to Drive Change:\n\nSet Priorities: Identify at-risk groups (e.g., elderly, low-income communities).\nDevelop Interventions: Targeted programs (e.g., tobacco cessation).\nAdvocate for Policy Change: Use data for systemic reforms.\n\nVisual:"
+  },
+  {
+    "objectID": "index.html#interactive-example",
+    "href": "index.html#interactive-example",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Interactive Example",
+    "text": "Interactive Example\nDataset Example:\n\n\n\nPopulation\nCases\nRate (per 100,000)\n\n\n\n\nUrban\n200\n50\n\n\nRural\n300\n75\n\n\n\nPrompt:\n\n“What does this suggest about resource allocation?”"
+  },
+  {
+    "objectID": "index.html#introduction-to-measurement",
+    "href": "index.html#introduction-to-measurement",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Introduction to Measurement",
+    "text": "Introduction to Measurement\nKey Concepts in Measuring Health and Disease\n\nDefinitions of incidence and prevalence.\nImportance of population health metrics.\nAgeing in the population\nDemographic transition\nLife table and life expectancy\nThe importance to standardize"
+  },
+  {
+    "objectID": "index.html#incidence-and-prevalence",
+    "href": "index.html#incidence-and-prevalence",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Incidence and Prevalence",
+    "text": "Incidence and Prevalence\nDefinitions\n\nIncidence: Number of new cases in a specified time period.\n\nFormula: (New cases during time period / Population at risk) × multiplier.\n\nPrevalence: Total number of existing cases at a given time.\n\nFormula: (Existing cases / Total population) × multiplier.\n\n\nDifferences\n\nIncidence: Measures risk; useful for studying causation.\nPrevalence: Measures disease burden; important for planning healthcare services."
+  },
+  {
+    "objectID": "index.html#impact-of-new-and-existing-cases",
+    "href": "index.html#impact-of-new-and-existing-cases",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Impact of New and Existing Cases",
+    "text": "Impact of New and Existing Cases\n\nPrevalence Formula Relation:\n\nPrevalence = Incidence × Duration of Disease\ncheck this youTube video\n\nFactors affecting prevalence:\n\nIncrease: Longer disease duration, improved survival without a cure.\nDecrease: Shorter duration, high mortality rates, or prevention."
+  },
+  {
+    "objectID": "index.html#rates-ratios-and-proportions",
+    "href": "index.html#rates-ratios-and-proportions",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Rates, Ratios, and Proportions",
+    "text": "Rates, Ratios, and Proportions\n\nRate: A measure of change per unit time (e.g., incidence density).\n\npay attention to rate instability\n\nRatio: Comparison of two numbers, unrelated (e.g., sex ratio).\nProportion: A part of a whole (e.g., percentage of women in a study group)."
+  },
+  {
+    "objectID": "index.html#cumulative-incidence",
+    "href": "index.html#cumulative-incidence",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Cumulative Incidence",
+    "text": "Cumulative Incidence\n\nProportion of an initially disease-free group of individuals who develop the disease within a specified period of observation.\n\npay attention to censoring (when individuals drop out or are lost to follow-up)\n\n\n\n\\[ CI = \\frac{\\text{new cases}}{\\text{number of individuals at start of the period}} \\]\n\n\nExample: Start with 100 disease-free individuals. After one year, 10 develop the disease.\n\n\n\\[ CI = \\frac{10}{100} = 0.10\\]\n\n\nAfter one year, 10% of the population developed the disease."
+  },
+  {
+    "objectID": "index.html#incidence-density",
+    "href": "index.html#incidence-density",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Incidence Density",
+    "text": "Incidence Density\n\nRate that measures how often new cases of a disease occur while accounting for different lengths of time that people are at risk\n\n\n\\[ ID = \\frac{\\text{new cases}}{\\text{total person-time at risk}}\\]\n\n\n\n\nStudy follows 5 individuals:\n\nPerson A: 2 years at risk\nPerson B: 3 years at risk\nPerson C: 1 year at risk\nPerson D: 4 years at risk\nPerson E: 2 years at risk\n\nTotal person-time at risk = 12 person-years\n\n\nWhy different times?\n\n\nDeveloped disease\nDied (other causes)\nLost to follow-up\nStudy ended"
+  },
+  {
+    "objectID": "index.html#incidence-density-1",
+    "href": "index.html#incidence-density-1",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Incidence Density",
+    "text": "Incidence Density\n\nTotal person-time at risk = 2 + 3 + 1 + 4 + 2 = 12 person-years\nNew cases = 3\n\n\n\\[ ID = \\frac{3}{12} = 0.25 \\text{ cases per person-year} \\]\n\n\n0.25 cases per person-year means that, on average, for every 4 people followed for a year, 1 will develop the disease."
+  },
+  {
+    "objectID": "index.html#measures-of-comparison",
+    "href": "index.html#measures-of-comparison",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Measures of Comparison",
+    "text": "Measures of Comparison\nKey Metrics:\n\nAge-Standardized Rates: Adjusted to eliminate age structure differences.\nAttributable Risk: Measures the impact of specific risk factors on outcomes."
+  },
+  {
+    "objectID": "index.html#demographic-changes-and-health-metrics",
+    "href": "index.html#demographic-changes-and-health-metrics",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Demographic Changes and Health Metrics",
+    "text": "Demographic Changes and Health Metrics\n\nFertility Rate: Key measure of reproductive behavior.\nMortality: Affects life expectancy and health metrics.\nMigration: Alters population composition, health service demands."
+  },
+  {
+    "objectID": "index.html#population-structure",
+    "href": "index.html#population-structure",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Population Structure",
+    "text": "Population Structure\nAge Pyramids\n\nGraphical representation of age and sex distribution.\nShows aging trends, and reveals impact of demographic events like wars, migrations."
+  },
+  {
+    "objectID": "index.html#interactive-activity",
+    "href": "index.html#interactive-activity",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Interactive Activity",
+    "text": "Interactive Activity\nAnalysis Instructions\n\nChoose an age pyramid.\n\ninternational pyramid.\nlocal level pyramid.\n\nExplain to class what you see and what you expect the population to look like in 15, 30 and 50 years."
+  },
+  {
+    "objectID": "index.html#demographic-transition",
+    "href": "index.html#demographic-transition",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Demographic Transition",
+    "text": "Demographic Transition\n\n4 stages of transitions\nThere is actually a fifth stage!"
+  },
+  {
+    "objectID": "index.html#demographic-transition-1",
+    "href": "index.html#demographic-transition-1",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Demographic Transition",
+    "text": "Demographic Transition\n\nStage 1: high burden of infectious diseases, high maternal/child mortality\nStages 2 & 3: transition to chronic diseases; improved health infrastructure\nStages 4 and 5: dominance of Non-Communicable Diseases (NCDs), and ageing related conditions"
+  },
+  {
+    "objectID": "index.html#preston-curve",
+    "href": "index.html#preston-curve",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Preston Curve",
+    "text": "Preston Curve\nGDP vs. Life Expectancy\n\nHow do country’s economic status and life expectancy relate?\n\nHigher GDP often correlates with longer life expectancy.\nPlateau effect beyond a certain GDP."
+  },
+  {
+    "objectID": "index.html#preston-curve-1",
+    "href": "index.html#preston-curve-1",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Preston Curve",
+    "text": "Preston Curve\n\nA: the new technology is equally applicable in all countries regardless of their level of income.\nB: the new technology has a disproportionately larger effect in rich countries.\nC: poorer countries benefit more."
+  },
+  {
+    "objectID": "index.html#aging-populations",
+    "href": "index.html#aging-populations",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Aging Populations",
+    "text": "Aging Populations\n\nTrends:\n\nIncreasing proportion of elderly.\nDependency ratios rise, impacting economic and health systems."
+  },
+  {
+    "objectID": "index.html#aging-populations-1",
+    "href": "index.html#aging-populations-1",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Aging Populations",
+    "text": "Aging Populations"
+  },
+  {
+    "objectID": "index.html#aging-populations-2",
+    "href": "index.html#aging-populations-2",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Aging Populations",
+    "text": "Aging Populations"
+  },
+  {
+    "objectID": "index.html#rectangularization-of-life-expectancy",
+    "href": "index.html#rectangularization-of-life-expectancy",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Rectangularization of Life Expectancy",
+    "text": "Rectangularization of Life Expectancy\n\nSurvival curves become more rectangular as mortality compresses toward older ages.\nImplications:\n\nShift to chronic diseases as leading health concerns.\nNeed for age-specific interventions."
+  },
+  {
+    "objectID": "index.html#mortality-metrics",
+    "href": "index.html#mortality-metrics",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Mortality Metrics",
+    "text": "Mortality Metrics\nCrude Death Rate (CDR)\n\n\nNumber of deaths per 1,000 individuals per year.\nCan be refined by breaking it down by age, sex, and socioeconomic status.\nExample: CDR in Mexico &lt; CDR in the USA, but age distribution must be considered.\n\n\nCase Fatality Rate (CFR)\n\n\nProportion of individuals with a disease who die from it.\nIndicates severity and lethality of a disease.\nExample Calculation: CFR = (Disease deaths / Total diagnosed cases) × 100"
+  },
+  {
+    "objectID": "index.html#life-table-construction",
+    "href": "index.html#life-table-construction",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Life Table Construction",
+    "text": "Life Table Construction\nSteps in Constructing a Life Table (1)\n\n\nDefine Age Groups\n\n0-20, 21-40, 41-60, 61+ \n\nInitialize Population (l₀)\n\nAssume l₀ = 100,000 \n\nDefine Mortality Rates (qₓ)\n\n0-20: qₓ = 0.005\n21-40: qₓ = 0.01\n41-60: qₓ = 0.15\n61+: qₓ = 0.50\n\n\nCalculate Deaths (dₓ)\n\\[ dₓ = lₓ \\times qₓ \\]\n\nExample: \\[ d_{0-20} = 100,000 \\times 0.005 = 500 \\]\n\nCalculate Survivors (lₓ)\n\n\\(lₓ\\) for next group = previous \\(lₓ - dₓ\\)\nExample: \\[ l_{21-40} = 100,000 - 500 = 99,500 \\]"
+  },
+  {
+    "objectID": "index.html#years-of-life-lost",
+    "href": "index.html#years-of-life-lost",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Years of Life Lost",
+    "text": "Years of Life Lost\n\nYears of Life Lost (YLL) quantifies the impact of premature mortality in a population.\nUsed in public health to evaluate disease burden and prioritize interventions."
+  },
+  {
+    "objectID": "index.html#summary",
+    "href": "index.html#summary",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Summary",
+    "text": "Summary\n\nCrude Death Rate (CDR) and Case Fatality Rate (CFR) provide baseline mortality measures.\nStandardized Mortality Ratio (SMR) adjusts for age distribution differences.\nLife tables are constructed step-by-step to estimate life expectancy at various ages.\nYears of Life Lost (YLL) quantifies premature mortality and is crucial for measuring disease burden.\nYLL helps prioritize public health interventions by identifying the most significant sources of early death."
+  },
+  {
+    "objectID": "index.html#fertility",
+    "href": "index.html#fertility",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Fertility",
+    "text": "Fertility\n\nSome definitions\n\ncrude birth rate (CBR): number of births per 1,000 population per year. The denominator, however, refers to the total population, including men and boys, young girls and old women!\ngeneral fertility rate (GFR): restricts inclusion in its denominator only to women in the reproductive age range\ntotal fertility rate (TFR): summing all age-specific fertility rates for women in the childbearing ages."
+  },
+  {
+    "objectID": "index.html#aging-populations-3",
+    "href": "index.html#aging-populations-3",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Aging Populations",
+    "text": "Aging Populations\n\nPolicy Implications:\n\nNeed for long-term care services.\nRedesign of healthcare systems."
+  },
+  {
+    "objectID": "index.html#book-exercise",
+    "href": "index.html#book-exercise",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Book Exercise",
+    "text": "Book Exercise\n\n\nExercise 2.1: State of the Population\n In the 2000 census, the total population of the United States was 281,423,000, with the following age-sex distribution (rounded to the nearest thousand):\n\n\n\nAge Group\nMale Population\nFemale Population\nTotal Population\n\n\n\n\n0–1\n1,949,000\n1,857,000\n3,806,000\n\n\n1–4\n7,862,000\n7,508,000\n15,370,000\n\n\n5–14\n21,044,000\n20,034,000\n41,078,000\n\n\n15–44\n62,647,000\n61,577,000\n124,224,000\n\n\n45–64\n30,143,000\n31,810,000\n61,953,000\n\n\n65+\n14,410,000\n20,582,000\n34,992,000\n\n\nTotal\n138,055,000\n143,368,000\n281,423,000\n\n\n\n\n\nCalculations\n\n\n\nProportion of the Elderly (65+ years) in the Population\n\n\nProportion of the Young (0–14 years) in the Population\n\n\nSex Ratio in Age Group 0–14 (expressed as 100 males per females)\n\n\nSex Ratio in Age Group 65+ (expressed as males per 100 females)"
+  },
+  {
+    "objectID": "index.html#at-home-exercise",
+    "href": "index.html#at-home-exercise",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "At Home Exercise",
+    "text": "At Home Exercise\n\n\nAnalyze an example population pyramid.\nPredict changes over 20 years based on fertility and mortality trends.\nFertility Trend and Mortality\n\n\\[P(t) = P_0 \\times \\left(1 + \\frac{B - D}{1000} \\right)^t\\]\n\n\\(P(t)\\): The population at time \\(t\\), after \\(t\\) years.\n\\(P_0\\): The current population (the population at time \\(t = 0\\)).\n\\(B\\): The birth rate, expressed as the number of births per 1,000 people per year.\n\\(D\\): The death rate, expressed as the number of deaths per 1,000 people per year.\n\\(t\\): The number of years into the future you are projecting (e.g., 20 years)."
+  },
+  {
+    "objectID": "index.html#summary-1",
+    "href": "index.html#summary-1",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "Summary",
+    "text": "Summary\nKey Takeaways\n\nDifferences between incidence and prevalence.\nImportance of understanding demographic changes.\nUsing tools like age pyramids to predict health trends.\n\nDiscussion Questions\n\nHow do changes in prevalence reflect healthcare advances?\nWhat policies can address the challenges of aging populations?"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Measuring Health and Disease in Populations",
+    "section": "References",
+    "text": "References\n\n\nYoung, T. K. (2004). Population Health: Concepts and Methods.\nWHO Reports on Health Metrics.\nNational Center for Health Statistics.\nPreston, S. H. (1975). The changing relation between mortality and level of economic development. Population Studies, 29(2), 231-248.\nOmran, A. R. (1971). The Epidemiologic Transition: A Theory of the Epidemiology of Population Change. The Milbank Quarterly, 49(4), 509–38.\nFries, James F. (2002). Aging, natural death, and the compression of morbidity.Bulletin of the World Health Organization 80, no. 3 (2002): 245-250.\nNusselder, W.J. and Mackenbach, J.P. (1996). Rectangularization of the survival curve in the Netherlands, 1950-1992. The Gerontologist, 36(6), pp.773-782."
+  }
+]
