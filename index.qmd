@@ -1,0 +1,781 @@
+---
+title: "Measuring Health and Disease in Populations"
+author: "College of Health @ LEHIGH | Eric Delmelle <br> February 9, 11, 23 2026"
+format:
+  revealjs: 
+    slide-number: true
+  pdf: default
+---
+
+```{=html}
+<style>
+ul {
+  font-size: 85%;
+}
+ul ul {
+  font-size: 75%;
+}
+</style>
+```
+
+
+## [**Table of Contents**]{style="color: teal;"}
+
+### [Part 1: Comparing Health Events]{style="color: pink;"}
+::: {style="font-size: 0.8em;"}
+- Introduction and Key Concepts
+- Types of Comparisons (Time, Place, Group, Event)
+- Policy Implications
+:::
+
+### [Part 2: Measuring Health and Disease]{style="color: pink;"}
+::: {style="font-size: 0.8em;"}
+- Incidence and Prevalence
+- Mortality Metrics
+- Life Tables and Life Expectancy
+- Demographic Transitions and Aging Populations
+- Fertility Rates
+:::
+
+------------------------------------------------------------------------
+
+# Part 1: Comparing Health Events
+
+------------------------------------------------------------------------
+
+## [**Introduction**]{style="color: teal;"}
+
+-   **Definition of Health Events**: Disease outbreaks, chronic conditions, injuries, and health behaviors.
+-   **Importance of Comparisons**: Understanding disparities, identifying risk factors, guiding public health interventions.
+-   **Key Concepts**: Population health, epidemiology, and biostatistics.
+
+------------------------------------------------------------------------
+
+## [**Objectives of Population Health**]{style="color: teal;"}
+
+### [**Four Key Objectives**]{style="color: pink;"}:
+
+1.  **Describe**: Understand population-level health outcomes.
+2.  **Explain**: Identify determinants and drivers of health outcomes.
+3.  **Predict**: Anticipate future health trends and patterns.
+4.  **Control**: Implement interventions to improve outcomes.
+
+------------------------------------------------------------------------
+
+## [**Historical Context**]{style="color: teal;"}
+
+### [Key Figures]{style="color: pink;"}
+
+-   **John Snow**: Cholera outbreak mapping.
+-   **Ignaz Semmelweis**: Importance of handwashing.
+-   **Joseph Goldberger**: Nutritional causes of pellagra.
+
+------------------------------------------------------------------------
+
+## [**Types of Comparisons**]{style="color: teal;"}
+
+### [**Time-Based**]{style="color: pink;"}
+
+![](imgs/timeBased.jpg){fig-align="center" width="70%"}
+
+#### Key Metrics:
+
+-   **Incidence**: New cases over time.
+-   **Prevalence**: Existing cases at a given time.
+
+------------------------------------------------------------------------
+
+### [**Place-Based**]{style="color: pink;"}
+
+![](imgs/placeBased.jpg){fig-align="center" width="70%"}
+
+#### Example:
+
+-   **Urban vs. Rural Heart Disease Mortality**:
+    -   Urban: 50 per 100,000.
+    -   Rural: 75 per 100,000.
+
+------------------------------------------------------------------------
+
+### [**Group-Based**]{style="color: pink;"}
+
+#### Example:
+
+-   Health disparities by race, age, and income. 
+
+![](imgs/covid19.png){fig-align="center" width="70%"}
+
+------------------------------------------------------------------------
+
+### [**Event-Based**]{style="color: pink;"}
+
+#### Key Concept:
+
+-   Natural experiments: Before vs. after policy changes or interventions. 
+
+![](imgs/polio.jpg){fig-align="center" width="70%"}
+
+------------------------------------------------------------------------
+
+### [**Additional Event-Based Example**]{style="color: pink;"}
+
+![](imgs/polio2.jpg){fig-align="center" width="70%"}
+
+------------------------------------------------------------------------
+
+## [**Levels of Analysis**]{style="color: teal;"}
+
+### [**Frameworks:**]{style="color: pink;"}
+
+-   **Individual-Level**: Biostatistical and clinical trials.
+-   **Population-Level**: Geographic and demographic patterns.
+
+------------------------------------------------------------------------
+
+## [**Population vs. Community Health Assessments**]{style="color: teal;"}
+
+#### Example:
+
+-   Community: Identifying food deserts.
+-   Population: Obesity prevalence across counties.
+
+------------------------------------------------------------------------
+
+## [**Policy Implications**]{style="color: teal;"}
+
+### [**Using Comparisons to Drive Change:**]{style="color: pink;"}
+
+1.  **Set Priorities**: Identify at-risk groups (e.g., elderly, low-income communities).
+2.  **Develop Interventions**: Targeted programs (e.g., tobacco cessation).
+3.  **Advocate for Policy Change**: Use data for systemic reforms.
+
+#### Visual:
+
+![](imgs/dataDrivenComparison.png){fig-align="center" width="80%"}
+
+------------------------------------------------------------------------
+
+## [**Interactive Example**]{style="color: teal;"}
+
+### [**Dataset Example**]{style="color: pink;"}:
+
+| Population | Cases | Rate (per 100,000) |
+|------------|-------|-------------------|
+| Urban      | 200   | 50                |
+| Rural      | 300   | 75                |
+
+#### Prompt:
+
+-   "What does this suggest about resource allocation?"
+
+------------------------------------------------------------------------
+
+# Part 2: Measuring Health and Disease
+
+------------------------------------------------------------------------
+
+## [**Introduction to Measurement**]{style="color: teal;"}
+
+### [**Key Concepts in Measuring Health and Disease**]{style="color: pink;"}
+
+-   Definitions of incidence and prevalence.
+-   Importance of population health metrics.
+-   Ageing in the population
+-   Demographic transition
+-   Life table and life expectancy
+-   The importance to standardize
+
+------------------------------------------------------------------------
+
+## [**Incidence and Prevalence**]{style="color: teal;"}
+
+### [**Definitions**]{style="color: pink;"}
+
+-   **Incidence:** Number of new cases in a specified time period.
+    -   Formula: `(New cases during time period / Population at risk) × multiplier`.
+-   **Prevalence:** Total number of existing cases at a given time.
+    -   Formula: `(Existing cases / Total population) × multiplier`.
+
+### [**Differences**]{style="color: pink;"}
+
+-   Incidence: Measures risk; useful for studying causation.
+-   Prevalence: Measures disease burden; important for planning healthcare services.
+
+------------------------------------------------------------------------
+
+## [**Impact of New and Existing Cases**]{style="color: teal;"}
+
+-   **Prevalence Formula Relation:**
+    -   `Prevalence = Incidence × Duration of Disease`
+    -   check this [youTube](https://s4be.cochrane.org/blog/2020/11/06/prevalence-vs-incidence-what-is-the-difference/){.uri} video
+-   **Factors affecting prevalence:**
+    -   **Increase:** Longer disease duration, improved survival without a cure.
+    -   **Decrease:** Shorter duration, high mortality rates, or prevention.
+
+------------------------------------------------------------------------
+
+## [**Rates, Ratios, and Proportions**]{style="color: teal;"}
+
+-   **Rate:** A measure of change per unit time (e.g., incidence density).
+    -   *pay attention to **rate instability***
+-   **Ratio:** Comparison of two numbers, unrelated (e.g., sex ratio).
+-   **Proportion:** A part of a whole (e.g., percentage of women in a study group).
+
+------------------------------------------------------------------------
+
+## [**Cumulative Incidence**]{style="color: teal;"}
+
+-   **Proportion** of an initially disease-free group of individuals who develop the disease within a specified period of observation.
+    -   *pay attention to **censoring*** (when individuals drop out or are lost to follow-up)
+
+::: {style="font-size: 0.6em;"}
+$$ CI = \frac{\text{new cases}}{\text{number of individuals at start of the period}} $$
+:::
+
+-   Example: Start with **100 disease-free individuals**. After **one year, 10 develop the disease**.
+
+::: {style="font-size: 0.6em;"}
+$$ CI = \frac{10}{100} = 0.10$$
+:::
+
+-   After **one year**, **10% of the population developed the disease**.
+
+------------------------------------------------------------------------
+
+## [**Incidence Density**]{style="color: teal;"}
+
+-   **Rate** that measures how often new cases of a disease occur while accounting for different lengths of time that people are at risk 
+
+::: {style="font-size: 0.6em;"}
+$$ ID = \frac{\text{new cases}}{\text{total person-time at risk}}$$
+:::
+
+::: {.columns}
+::: {.column width="65%"}
+-   Study follows **5 individuals**:
+    -   **Person A:** 2 years at risk
+    -   **Person B:** 3 years at risk
+    -   **Person C:** 1 year at risk
+    -   **Person D:** 4 years at risk
+    -   **Person E:** 2 years at risk
+-   **Total person-time at risk** = **12 person-years**
+:::
+
+::: {.column width="35%"}
+[**Why different times?**]{style="font-size: 0.75em;"}
+
+::: {style="font-size: 0.7em;"}
+-   Developed disease
+-   Died (other causes)
+-   Lost to follow-up
+-   Study ended
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## [**Incidence Density**]{style="color: teal;"}
+
+-   **Total person-time at risk** = **2 + 3 + 1 + 4 + 2 = 12 person-years**
+-   **New cases = 3**
+
+::: {style="font-size: 0.6em;"}
+$$ ID = \frac{3}{12} = 0.25 \text{ cases per person-year} $$
+:::
+
+-   **0.25 cases per person-year** means that, on average, for every 4 people followed for a year, 1 will develop the disease.
+
+------------------------------------------------------------------------
+
+## [**Measures of Comparison**]{style="color: teal;"}
+
+### [**Key Metrics**]{style="color: pink;"}:
+
+-   **Age-Standardized Rates**: Adjusted to eliminate age structure differences.
+-   **Attributable Risk**: Measures the impact of specific risk factors on outcomes.
+
+------------------------------------------------------------------------
+
+## [**Demographic Changes and Health Metrics**]{style="color: teal;"}
+
+-   **Fertility Rate:** Key measure of reproductive behavior.
+-   **Mortality:** Affects life expectancy and health metrics.
+-   **Migration:** Alters population composition, health service demands.
+
+------------------------------------------------------------------------
+
+## [**Population Structure**]{style="color: teal;"}
+
+### [**Age Pyramids**]{style="color: pink;"}
+
+-   Graphical representation of age and sex distribution.
+-   Shows aging trends, and reveals impact of demographic events like wars, migrations.
+
+![](imgs/Dtm_pyramids.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+### [**Age Pyramids**]{style="color: pink;"}
+
+![](imgs/Dtm_pyramids.jpg){fig-align="center"}
+
+-   **Developed Countries:** Narrow base, wider top (aging population).
+-   **Developing Countries:** Broad base, narrow top (younger population).
+-   [Interactive](https://www.populationpyramid.net/){.uri} pyramid.
+
+------------------------------------------------------------------------
+
+### [**Qatar and Japan Age Pyramids**]{style="color: pink;"}
+
+::: columns
+::: {.column width="50%"}
+**Qatar**
+
+![](imgs/qatarPyramid.jpg){fig-align="center" width="100%"}
+:::
+
+::: {.column width="50%"}
+**Japan**
+
+![](imgs/japanPyramid.jpg){fig-align="center" width="100%"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## [**Interactive Activity**]{style="color: teal;"}
+
+### Analysis Instructions
+
+- Choose an age pyramid.
+    - [international](https://www.populationpyramid.net/){.uri} pyramid.
+    - [local level](https://usafacts.org/data/topics/people-society/population-and-demographics/our-changing-population/){.uri} pyramid.
+- Explain to class what you see and what you expect the population to look like in 15, 30 and 50 years.
+
+------------------------------------------------------------------------
+
+## [**Demographic Transition**]{style="color: teal;"}
+
+-   4 stages of transitions
+-   There is actually a fifth stage!
+
+![](imgs/demographicTransition.jpg){fig-align="center" width="800"}
+
+------------------------------------------------------------------------
+
+## [**Demographic Transition**]{style="color: teal;"}
+
+-   **Stage 1**: high burden of infectious diseases, high maternal/child mortality
+-   **Stages 2 & 3**: transition to chronic diseases; improved health infrastructure
+-   **Stages 4 and 5**: dominance of Non-Communicable Diseases (NCDs), and ageing related conditions
+
+------------------------------------------------------------------------
+
+## [**Preston Curve**]{style="color: teal;"}
+
+### [**GDP vs. Life Expectancy**]{style="color: pink;"}
+
+-   How do country's economic status and life expectancy relate?
+    -   Higher GDP often correlates with longer life expectancy.
+    -   Plateau effect beyond a certain GDP.
+
+![](imgs/prestonA.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## [**Preston Curve**]{style="color: teal;"}
+
+-   **A**: the new technology is equally applicable in all countries regardless of their level of income.
+-   **B**: the new technology has a disproportionately larger effect in rich countries.
+-   **C**: poorer countries benefit more.
+
+![](imgs/prestonB.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## [**Aging Populations**]{style="color: teal;"}
+
+-   **Trends:**
+    -   Increasing proportion of elderly.
+    -   Dependency ratios rise, impacting economic and health systems.
+
+![](imgs/life-expectancy-cumulative-over-200-years.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## [**Aging Populations**]{style="color: teal;"}
+
+![](imgs/percentSurviving.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## [**Aging Populations**]{style="color: teal;"}
+
+![](imgs/percentSurvivingB.jpg)
+
+------------------------------------------------------------------------
+
+## [**Rectangularization of Life Expectancy**]{style="color: teal;"}
+
+-   Survival curves become more rectangular as mortality compresses toward older ages.
+-   **Implications:**
+    -   Shift to chronic diseases as leading health concerns.
+    -   Need for age-specific interventions.
+
+------------------------------------------------------------------------
+
+### [**Survival Curves in Sweden**]{style="color: pink;"}
+
+![](imgs/survivalSweden.png){fig-align="center" width="510"}
+
+[Source: Schoder, J., & Zweifel, P. (2011). Flat-of-the-curve medicine: a new perspective on the production of health. Health Economics Review, 1, 1-10.]{style="font-size: 0.6em;"}
+
+------------------------------------------------------------------------
+
+### [**Survival Curves in USA**]{style="color: pink;"}
+
+![](imgs/survivalUSA.png){fig-align="center" width="503"}
+
+[Source: Bell, F. C., & Miller, M. L. (2005). Life tables for the United States social security area, 1900-2100 (No. 120). Social Security Administration, Office of the Chief Actuary.]{style="font-size: 0.6em;"}
+
+------------------------------------------------------------------------
+
+## [**Mortality Metrics**]{style="color: teal;"}
+
+### [**Crude Death Rate (CDR)**]{style="color: pink;"}
+
+::: {style="font-size: 0.8em;"}
+-   Number of deaths per 1,000 individuals per year.
+-   Can be refined by breaking it down by age, sex, and socioeconomic status.
+-   **Example:** CDR in Mexico < CDR in the USA, but age distribution must be considered.
+:::
+
+### [**Case Fatality Rate (CFR)**]{style="color: pink;"}
+::: {style="font-size: 0.8em;"}
+-   Proportion of individuals with a disease who die from it.
+-   Indicates severity and lethality of a disease.
+-   **Example Calculation:** CFR = (Disease deaths / Total diagnosed cases) × 100
+:::
+
+------------------------------------------------------------------------
+
+### [**Standardized Mortality Ratio (SMR)**]{style="color: pink;"}
+
+-   Adjusts mortality rates for different population age structures.
+-   **Formula:** SMR = (Observed Deaths / Expected Deaths) × 100
+-   **Example Calculation:**
+    -   Observed deaths: 93
+    -   Expected deaths: 70.5
+    -   SMR = (93 / 70.5) × 100 = **132** (indicating 32% higher mortality than expected)
+
+------------------------------------------------------------------------
+
+## [**Life Table Construction**]{style="color: teal;"}
+
+### [**Steps in Constructing a Life Table (1)**]{style="color: pink;"}
+
+::: columns
+::: {.column width="45%" style="font-size: 22px; line-height: 1.2;"}
+#### Define Age Groups {style="color: blue;"}
+
+-   0-20, 21-40, 41-60, 61+ <br><br><br>
+
+#### Initialize Population (l₀) {style="color: blue;"}
+
+-   Assume l₀ = 100,000 <br><br><br>
+
+#### Define Mortality Rates (qₓ) {style="color: blue;"}
+
+-   0-20: qₓ = 0.005
+-   21-40: qₓ = 0.01
+-   41-60: qₓ = 0.15
+-   61+: qₓ = 0.50
+:::
+
+::: {.column width="45%" style="font-size: 22px; line-height: 1.2;"}
+#### Calculate Deaths (dₓ) {style="color: blue;"}
+
+$$ dₓ = lₓ \times qₓ $$ 
+
+- **Example:** $$ d_{0-20} = 100,000 \times 0.005 = 500 $$
+
+#### Calculate Survivors (lₓ) {style="color: blue;"}
+
+-   $lₓ$ for next group = previous $lₓ - dₓ$
+-   **Example:** $$ l_{21-40} = 100,000 - 500 = 99,500 $$
+:::
+:::
+
+------------------------------------------------------------------------
+
+### [**Steps in Constructing a Life Table (2)**]{style="color: pink;"}
+
+::: columns
+::: {.column width="45%" style="font-size: 22px; line-height: 1.2;"}
+#### Calculate Person-Years Lived (Lₓ) {style="color: blue;"}
+
+-   $Lₓ = \frac{lₓ + l_{x+1}}{2} \times n$
+-   Example: $L_{0-20} = \frac{100,000 + 99,500}{2} \times 20 = 1995000$
+
+#### Calculate Total Years Remaining (Tₓ) {style="color: blue;"}
+
+-   $Tₓ$= Sum of all subsequent $Lₓ$ values.
+
+#### Derive Life Expectancy (eₓ) {style="color: blue;"}
+
+-   $eₓ = \frac{Tₓ}{lₓ}$
+-   Represents average remaining years of life for individuals entering each age group.
+:::
+
+::: {.column width="45%" style="font-size: 22px; line-height: 1.2;"}
+```{r}
+library(knitr)
+life_table <- data.frame(
+  Age_Group = c("0-20", "21-40", "41-60", "61+"),
+  Initial_Population = c(100000, 99500, 98550, 83767),
+  Mortality_Rate = c(0.005, 0.01, 0.15, 0.50),
+  Deaths = c(500, 995, 14783, 41883),
+  Survivors = c(99500, 98550, 83767, 41884),
+  Person_Years = c(1995000, 1980500, 1823170, 1256510),
+  Total_Years_Remaining = c(7055180, 5060180, 3079680, 1256510),
+  Life_Expectancy = c(70.55, 50.85, 31.25, 15.00)
+)
+kable(life_table)
+```
+:::
+:::
+
+------------------------------------------------------------------------
+
+## [**Years of Life Lost**]{style="color: teal;"}
+
+-   Years of Life Lost (YLL) quantifies the impact of premature mortality in a population.
+-   Used in public health to evaluate disease burden and prioritize interventions.
+
+------------------------------------------------------------------------
+
+### [**Methodology for Calculating YLL**]{style="color: teal;"}
+
+#### [**Definition of Premature Mortality Age**]{style="color: pink;"}
+
+-   Premature mortality is defined relative to a threshold age, typically the average life expectancy.
+-   For this example, we use **75 years**.
+
+#### [**Identification of Age at Death**]{style="color: pink;"}
+
+-   Essential for determining premature deaths.
+-   Each death's impact varies depending on age at death.
+
+------------------------------------------------------------------------
+
+#### [**Calculation of Individual YLL**]{style="color: pink;"}
+
+-   Formula: $\text{YLL} = T - a_i$ where:
+    -   $T$ is the threshold age,
+    -   $a_i$ is the individual's age at death.
+
+#### [**Summation of YLL**]{style="color: pink;"}
+
+-   Total population impact calculated as: $\text{Total YLL} = \sum \text{YLL}_i$
+
+------------------------------------------------------------------------
+
+#### [**Example Calculation**]{style="color: pink;"}
+
+Consider three individuals dying at **ages 25, 35, and 60**, with a threshold of **75 years**:
+
+::: columns
+::: {.column width="45%"}
+-   **Individual 1:**
+    -   Age at death: 25
+    -   YLL = 75 - 25 = **50 years**
+-   **Individual 2:**
+    -   Age at death: 35
+    -   YLL = 75 - 35 = **40 years**
+:::
+
+::: {.column width="45%"}
+-   **Individual 3:**
+    -   Age at death: 60
+    -   YLL = 75 - 60 = **15 years**
+-   **Total YLL:** $50 + 40 + 15 = 105 \text{ years}$
+:::
+:::
+
+------------------------------------------------------------------------
+
+#### [**Discussion**]{style="color: teal;"}
+
+-   The **105 years of YLL** highlight the burden of premature deaths.
+-   Helps health authorities prioritize interventions.
+-   Modifications include:
+    -   Discounting future years,
+    -   Weighting younger deaths more heavily,
+    -   Adjusting for epidemiological and demographic context.
+-   *Let's look at Box 2.5 in the book*.
+
+------------------------------------------------------------------------
+
+## [**Summary**]{style="color: teal;"}
+
+-   Crude Death Rate (CDR) and Case Fatality Rate (CFR) provide baseline mortality measures.
+-   Standardized Mortality Ratio (SMR) adjusts for age distribution differences.
+-   Life tables are constructed step-by-step to estimate life expectancy at various ages.
+-   **Years of Life Lost (YLL)** quantifies premature mortality and is crucial for measuring disease burden.
+-   YLL helps prioritize public health interventions by identifying the most significant sources of early death.
+
+------------------------------------------------------------------------
+
+## [**Fertility**]{style="color: teal;"}
+
+-   **Some definitions**
+    -   *crude birth rate (CBR)*: number of births per 1,000 population per year. The denominator, however, refers to the total population, including men and boys, young girls and old women!
+    -   *general fertility rate (GFR)*: restricts inclusion in its denominator only to women in the reproductive age range
+    -   *total fertility rate (TFR)*: summing all age-specific fertility rates for women in the childbearing ages.
+
+------------------------------------------------------------------------
+
+### [**Birth Rates in US, Canada, Mexico**]{style="color: pink;"}
+
+![](imgs/birthRate.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+### [**Deriving Total Fertility Rate**]{style="color: pink;"}
+
+::: columns
+::: {.column width="40%"}
+#### Age-Specific Fertility Rates (ASFRs) for the U.S. (2000)
+<small> 
+
+- **15--19**: 48.5/1,000
+
+- **20--24**: 112.3/1,000
+
+- **25--29**: 121.4/1,000
+
+- **30--34**: 94.1/1,000
+
+- **35--39**: 40.4/1,000
+
+- **40--44**: 7.9/1,000
+
+- **45--49**: 0.5/1,000
+
+**Total:** 425/1,000
+</small>
+:::
+
+::: {.column width="60%"}
+#### Explanation
+
+::: {style="font-size: 0.8em;"}
+-   The ASFR represents the birth rate per 1,000 women in each age group.
+    
+-   Summing the ASFRs gives 425/1,000 for all age groups. 
+    
+-   Since each ASFR represents a five-year average, multiplying by 5 gives 2,125/1,000. This means the TFR = 2.1 births per woman, the replacement-level fertility rate typical of developed countries. 
+    
+-   Including ages 10--14 or 50--54 has little impact on the overall TFR.
+:::
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+## [**Aging Populations**]{style="color: teal;"}
+
+-   **Policy Implications:**
+    -   Need for long-term care services.
+    -   Redesign of healthcare systems.
+
+------------------------------------------------------------------------
+
+## [**Book Exercise**]{style="color: teal;"}
+
+::: columns
+::: {.column width="50%"}
+### <small>**Exercise 2.1: State of the Population**</small>
+
+<small> 
+In the 2000 census, the total population of the United States was 281,423,000, with the following age-sex distribution (rounded to the nearest thousand):
+
+| Age Group | Male Population | Female Population | Total Population |
+|-----------|-----------------|-------------------|------------------|
+| 0--1      | 1,949,000       | 1,857,000         | 3,806,000        |
+| 1--4      | 7,862,000       | 7,508,000         | 15,370,000       |
+| 5--14     | 21,044,000      | 20,034,000        | 41,078,000       |
+| 15--44    | 62,647,000      | 61,577,000        | 124,224,000      |
+| 45--64    | 30,143,000      | 31,810,000        | 61,953,000       |
+| 65+       | 14,410,000      | 20,582,000        | 34,992,000       |
+| **Total** | **138,055,000** | **143,368,000**   | **281,423,000**  |
+</small>
+:::
+
+::: {.column width="50%"}
+### <small>**Calculations**</small>
+<small>
+
+-   (a) **Proportion of the Elderly (65+ years) in the Population**
+
+-   (b) **Proportion of the Young (0--14 years) in the Population**
+
+-   (c) **Sex Ratio in Age Group 0--14 (expressed as 100 males per females)**
+-   (d) **Sex Ratio in Age Group 65+ (expressed as males per 100 females)**
+
+</small>
+:::
+:::
+
+------------------------------------------------------------------------
+
+## [**At Home Exercise**]{style="color: teal;"}
+
+<small>
+
+-   Analyze an example population pyramid.
+-   Predict changes over 20 years based on fertility and mortality trends.
+-   [Fertility Trend and Mortality](https://data.worldbank.org/indicator/SP.DYN.TFRT.IN){.uri}
+
+$$P(t) = P_0 \times \left(1 + \frac{B - D}{1000} \right)^t$$
+
+-   $P(t)$: The **population** at time $t$, after $t$ years.
+-   $P_0$: The **current population** (the population at time $t = 0$).
+-   $B$: The **birth rate**, expressed as the number of **births per 1,000 people** per year.
+-   $D$: The **death rate**, expressed as the number of **deaths per 1,000 people** per year.
+-   $t$: The **number of years** into the future you are projecting (e.g., 20 years).
+
+</small>
+
+------------------------------------------------------------------------
+
+## [**Summary**]{style="color: teal;"}
+
+### [**Key Takeaways**]{style="color: pink;"}
+
+-   Differences between incidence and prevalence.
+-   Importance of understanding demographic changes.
+-   Using tools like age pyramids to predict health trends.
+
+### [**Discussion Questions**]{style="color: pink;"}
+
+-   How do changes in prevalence reflect healthcare advances?
+-   What policies can address the challenges of aging populations?
+
+------------------------------------------------------------------------
+
+## [**References**]{style="color: teal;"}
+
+<small>  
+
+-   Young, T. K. (2004). *Population Health: Concepts and Methods.*
+-   WHO Reports on Health Metrics.
+-   National Center for Health Statistics.
+-   Preston, S. H. (1975). *The changing relation between mortality and level of economic development.* Population Studies, 29(2), 231-248.
+-   Omran, A. R. (1971). *The Epidemiologic Transition: A Theory of the Epidemiology of Population Change.* The Milbank Quarterly, 49(4), 509--38.
+-   Fries, James F. (2002). *Aging, natural death, and the compression of morbidity*.Bulletin of the World Health Organization 80, no. 3 (2002): 245-250.
+-   Nusselder, W.J. and Mackenbach, J.P. (1996). *Rectangularization of the survival curve in the Netherlands, 1950-1992*. The Gerontologist, 36(6), pp.773-782.  
+
+</small>
