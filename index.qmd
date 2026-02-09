@@ -207,7 +207,7 @@ ul ul {
 
 -   **Prevalence Formula Relation:**
     -   `Prevalence = Incidence × Duration of Disease`
-    -   check this [youTube](https://s4be.cochrane.org/blog/2020/11/06/prevalence-vs-incidence-what-is-the-difference/){.uri} video
+    -   check this [youTube](https://www.youtube.com/watch?v=XXJl2C1PxTQ&t=275s){.uri} video
 -   **Factors affecting prevalence:**
     -   **Increase:** Longer disease duration, improved survival without a cure.
     -   **Decrease:** Shorter duration, high mortality rates, or prevention.
