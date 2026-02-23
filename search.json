@@ -35,39 +35,11 @@
     "text": "Types of Comparisons\nTime-Based\n\nKey Metrics:\n\nIncidence: New cases over time.\nPrevalence: Existing cases at a given time."
   },
   {
-    "objectID": "index.html#levels-of-analysis",
-    "href": "index.html#levels-of-analysis",
-    "title": "Measuring Health and Disease in Populations",
-    "section": "Levels of Analysis",
-    "text": "Levels of Analysis\nFrameworks:\n\nIndividual-Level: Biostatistical and clinical trials.\nPopulation-Level: Geographic and demographic patterns."
-  },
-  {
-    "objectID": "index.html#population-vs.-community-health-assessments",
-    "href": "index.html#population-vs.-community-health-assessments",
-    "title": "Measuring Health and Disease in Populations",
-    "section": "Population vs. Community Health Assessments",
-    "text": "Population vs. Community Health Assessments\nExample:\n\nCommunity: Identifying food deserts.\nPopulation: Obesity prevalence across counties."
-  },
-  {
-    "objectID": "index.html#policy-implications",
-    "href": "index.html#policy-implications",
-    "title": "Measuring Health and Disease in Populations",
-    "section": "Policy Implications",
-    "text": "Policy Implications\nUsing Comparisons to Drive Change:\n\nSet Priorities: Identify at-risk groups (e.g., elderly, low-income communities).\nDevelop Interventions: Targeted programs (e.g., tobacco cessation).\nAdvocate for Policy Change: Use data for systemic reforms.\n\nVisual:"
-  },
-  {
-    "objectID": "index.html#interactive-example",
-    "href": "index.html#interactive-example",
-    "title": "Measuring Health and Disease in Populations",
-    "section": "Interactive Example",
-    "text": "Interactive Example\nDataset Example:\n\n\n\nPopulation\nCases\nRate (per 100,000)\n\n\n\n\nUrban\n200\n50\n\n\nRural\n300\n75\n\n\n\nPrompt:\n\n“What does this suggest about resource allocation?”"
-  },
-  {
     "objectID": "index.html#introduction-to-measurement",
     "href": "index.html#introduction-to-measurement",
     "title": "Measuring Health and Disease in Populations",
     "section": "Introduction to Measurement",
-    "text": "Introduction to Measurement\nKey Concepts in Measuring Health and Disease\n\nDefinitions of incidence and prevalence.\nImportance of population health metrics.\nAgeing in the population\nDemographic transition\nLife table and life expectancy\nThe importance to standardize"
+    "text": "Introduction to Measurement\nKey Concepts in Measuring Health and Disease\n\nDefinitions of incidence and prevalence.\nImportance of population health metrics.\nAgeing in the population\nDemographic transition\nLife expectancy\nThe importance to standardize"
   },
   {
     "objectID": "index.html#incidence-and-prevalence",
@@ -203,13 +175,6 @@
     "text": "Mortality Metrics\nCrude Death Rate (CDR)\n\n\nNumber of deaths per 1,000 individuals per year.\nCan be refined by breaking it down by age, sex, and socioeconomic status.\nExample: CDR in Mexico &lt; CDR in the USA, but age distribution must be considered.\n\n\nCase Fatality Rate (CFR)\n\n\nProportion of individuals with a disease who die from it.\nIndicates severity and lethality of a disease.\nExample Calculation: CFR = (Disease deaths / Total diagnosed cases) × 100"
   },
   {
-    "objectID": "index.html#life-table-construction",
-    "href": "index.html#life-table-construction",
-    "title": "Measuring Health and Disease in Populations",
-    "section": "Life Table Construction",
-    "text": "Life Table Construction\nSteps in Constructing a Life Table (1)\n\n\nDefine Age Groups\n\n0-20, 21-40, 41-60, 61+ \n\nInitialize Population (l₀)\n\nAssume l₀ = 100,000 \n\nDefine Mortality Rates (qₓ)\n\n0-20: qₓ = 0.005\n21-40: qₓ = 0.01\n41-60: qₓ = 0.15\n61+: qₓ = 0.50\n\n\nCalculate Deaths (dₓ)\n\\[ dₓ = lₓ \\times qₓ \\]\n\nExample: \\[ d_{0-20} = 100,000 \\times 0.005 = 500 \\]\n\nCalculate Survivors (lₓ)\n\n\\(lₓ\\) for next group = previous \\(lₓ - dₓ\\)\nExample: \\[ l_{21-40} = 100,000 - 500 = 99,500 \\]"
-  },
-  {
     "objectID": "index.html#years-of-life-lost",
     "href": "index.html#years-of-life-lost",
     "title": "Measuring Health and Disease in Populations",
@@ -221,7 +186,7 @@
     "href": "index.html#summary",
     "title": "Measuring Health and Disease in Populations",
     "section": "Summary",
-    "text": "Summary\n\nCrude Death Rate (CDR) and Case Fatality Rate (CFR) provide baseline mortality measures.\nStandardized Mortality Ratio (SMR) adjusts for age distribution differences.\nLife tables are constructed step-by-step to estimate life expectancy at various ages.\nYears of Life Lost (YLL) quantifies premature mortality and is crucial for measuring disease burden.\nYLL helps prioritize public health interventions by identifying the most significant sources of early death."
+    "text": "Summary\n\nCrude Death Rate (CDR) and Case Fatality Rate (CFR) provide baseline mortality measures.\nStandardized Mortality Ratio (SMR) adjusts for age distribution differences.\nYears of Life Lost (YLL) quantifies premature mortality and is crucial for measuring disease burden.\nYLL helps prioritize public health interventions by identifying the most significant sources of early death."
   },
   {
     "objectID": "index.html#fertility",
@@ -243,13 +208,6 @@
     "title": "Measuring Health and Disease in Populations",
     "section": "Book Exercise",
     "text": "Book Exercise\n\n\nExercise 2.1: State of the Population\n In the 2000 census, the total population of the United States was 281,423,000, with the following age-sex distribution (rounded to the nearest thousand):\n\n\n\nAge Group\nMale Population\nFemale Population\nTotal Population\n\n\n\n\n0–1\n1,949,000\n1,857,000\n3,806,000\n\n\n1–4\n7,862,000\n7,508,000\n15,370,000\n\n\n5–14\n21,044,000\n20,034,000\n41,078,000\n\n\n15–44\n62,647,000\n61,577,000\n124,224,000\n\n\n45–64\n30,143,000\n31,810,000\n61,953,000\n\n\n65+\n14,410,000\n20,582,000\n34,992,000\n\n\nTotal\n138,055,000\n143,368,000\n281,423,000\n\n\n\n\n\nCalculations\n\n\n\nProportion of the Elderly (65+ years) in the Population\n\n\nProportion of the Young (0–14 years) in the Population\n\n\nSex Ratio in Age Group 0–14 (expressed as 100 males per females)\n\n\nSex Ratio in Age Group 65+ (expressed as males per 100 females)"
-  },
-  {
-    "objectID": "index.html#at-home-exercise",
-    "href": "index.html#at-home-exercise",
-    "title": "Measuring Health and Disease in Populations",
-    "section": "At Home Exercise",
-    "text": "At Home Exercise\n\n\nAnalyze an example population pyramid.\nPredict changes over 20 years based on fertility and mortality trends.\nFertility Trend and Mortality\n\n\\[P(t) = P_0 \\times \\left(1 + \\frac{B - D}{1000} \\right)^t\\]\n\n\\(P(t)\\): The population at time \\(t\\), after \\(t\\) years.\n\\(P_0\\): The current population (the population at time \\(t = 0\\)).\n\\(B\\): The birth rate, expressed as the number of births per 1,000 people per year.\n\\(D\\): The death rate, expressed as the number of deaths per 1,000 people per year.\n\\(t\\): The number of years into the future you are projecting (e.g., 20 years)."
   },
   {
     "objectID": "index.html#summary-1",
