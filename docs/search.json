@@ -203,13 +203,6 @@
     "text": "Mortality Metrics\nCrude Death Rate (CDR)\n\n\nNumber of deaths per 1,000 individuals per year.\nCan be refined by breaking it down by age, sex, and socioeconomic status.\nExample: CDR in Mexico &lt; CDR in the USA, but age distribution must be considered.\n\n\nCase Fatality Rate (CFR)\n\n\nProportion of individuals with a disease who die from it.\nIndicates severity and lethality of a disease.\nExample Calculation: CFR = (Disease deaths / Total diagnosed cases) × 100"
   },
   {
-    "objectID": "index.html#life-table-construction",
-    "href": "index.html#life-table-construction",
-    "title": "Measuring Health and Disease in Populations",
-    "section": "Life Table Construction",
-    "text": "Life Table Construction\nSteps in Constructing a Life Table (1)\n\n\nDefine Age Groups\n\n0-20, 21-40, 41-60, 61+ \n\nInitialize Population (l₀)\n\nAssume l₀ = 100,000 \n\nDefine Mortality Rates (qₓ)\n\n0-20: qₓ = 0.005\n21-40: qₓ = 0.01\n41-60: qₓ = 0.15\n61+: qₓ = 0.50\n\n\nCalculate Deaths (dₓ)\n\\[ dₓ = lₓ \\times qₓ \\]\n\nExample: \\[ d_{0-20} = 100,000 \\times 0.005 = 500 \\]\n\nCalculate Survivors (lₓ)\n\n\\(lₓ\\) for next group = previous \\(lₓ - dₓ\\)\nExample: \\[ l_{21-40} = 100,000 - 500 = 99,500 \\]"
-  },
-  {
     "objectID": "index.html#years-of-life-lost",
     "href": "index.html#years-of-life-lost",
     "title": "Measuring Health and Disease in Populations",
